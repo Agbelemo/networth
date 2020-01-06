@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: blue;
+    font-family: 'Poppins', sans-serif;
+}
+
+header nav{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    margin-top: 5%;
+}
+
+.click{
+    margin-left: 25em;
+}
+
+.click button{
+    margin-left: 2em;   
+    border: none;
+}
+
+.click button:nth-child(1){
+    margin-left: -5em;   
+    border: none;
+    background: blue;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.click button a{
+    color: white;
+    text-decoration: none;
+}
+
+.click button:nth-child(2){
+    margin-left: 5em;   
+    border: none;
+    background: white;
+    color: blueviolet;
+    padding: 10px 30px;
+    border-radius: 10px 0 20px 10px;
+}
+
+.showcase{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 5pc;
+    color: white;
+    margin-left: 70px;
+}
+
+.text{
+    font-size: x-large;
+    width: 90%;
+}
+
+.text h1{
+    font-size: 250%;
+}
+
+.text p{
+    font-size: large;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.text button{
+    margin-top: 2em;   
+    border: none;
+    background: white;
+    color: blueviolet;
+    padding: 5px 30px;
+    border-radius: 10px 0 20px 10px;
+}
+
+.img{
+    width: 405w;
+    height: 20vw;
+    background: url(./image/428170.png);
+    margin-left: -10em;
+    margin-top: 3em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
